@@ -24,7 +24,7 @@ Given a document collaboratively authored by human and AI, classify the extent t
 | f1-score  | 0.6142815239709285 | 0.5076621171697573 | 0.8866863359763968 | 0.3435366090084656 | 0.10486891385767791| 0.7522123893805309 | 
 | support   | 12330.0            | 12289.0            | 10137.0            | 37170.0            | 225.0              | 510.0              |
 
-The overall results - across all classes - was:
+The overall results - across all classes - were:
 ```json
 {
   "accuracy": 0.5351013611153164,
