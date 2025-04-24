@@ -32,3 +32,10 @@ The overall results - across all classes - were:
   "weighted avg": {"precision": 0.7100654528964326, "recall": 0.5351013611153164, "f1-score": 0.49514278522591415, "support": 72661.0}
 }
 ```
+
+#### Experiment 2: Finetuning DistilBert
+
+```
+{'0': {'precision': 0.5365993634893306, 'recall': 0.8341443633414436, 'f1-score': 0.6530780709273899, 'support': 12330.0}, '1': {'precision': 0.39914453751559437, 'recall': 0.9112214175278704, 'f1-score': 0.5551259171128297, 'support': 12289.0}, '2': {'precision': 0.7224820010391153, 'recall': 0.9602446483180428, 'f1-score': 0.824565861922914, 'support': 10137.0}, '3': {'precision': 0.8757516802263884, 'recall': 0.26642453591606136, 'f1-score': 0.40855645859977724, 'support': 37170.0}, '4': {'precision': 0.051587301587301584, 'recall': 0.057777777777777775, 'f1-score': 0.05450733752620545, 'support': 225.0}, '5': {'precision': 0.9064039408866995, 'recall': 0.7215686274509804, 'f1-score': 0.8034934497816594, 'support': 510.0}, 'accuracy': 0.5711592188381662, 'macro avg': {'precision': 0.5819948041240716, 'recall': 0.6252302283886961, 'f1-score': 0.5498878493117959, 'support': 72661.0}, 'weighted avg': {'precision': 0.7138729239153097, 'recall': 0.5711592188381662, 'f1-score': 0.5345523531018376, 'support': 72661.0}}
+
+```
