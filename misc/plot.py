@@ -4,7 +4,7 @@ import ast
 epochs = []
 losses = []
 
-with open("exp1.txt", "r") as f:
+with open("logs\subtask2\exp2_distilbert.txt", "r") as f:
     for line in f:
         line = line.strip()
         if not line:
