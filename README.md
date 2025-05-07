@@ -51,3 +51,24 @@ The overall results - across all classes - were:
 
 ```
 {'0': {'precision': 0.47640257344670894, 'recall': 0.8587996755879967, 'f1-score': 0.6128425499898718, 'support': 12330.0}, '1': {'precision': 0.482186344367277, 'recall': 0.8700463829440963, 'f1-score': 0.6204915416533674, 'support': 12289.0}, '2': {'precision': 0.6858394960284854, 'recall': 0.9880635296438789, 'f1-score': 0.8096681621599774, 'support': 10137.0}, '3': {'precision': 0.887276958882855, 'recall': 0.3076943771859026, 'f1-score': 0.45693168198162204, 'support': 37170.0}, '4': {'precision': 0.27009646302250806, 'recall': 0.37333333333333335, 'f1-score': 0.31343283582089554, 'support': 225.0}, '5': {'precision': 0.9956043956043956, 'recall': 0.888235294117647, 'f1-score': 0.938860103626943, 'support': 510.0}, 'accuracy': 0.5955189166127633, 'macro avg': {'precision': 0.6329010385587049, 'recall': 0.7143620988021425, 'f1-score': 0.6253711458721128, 'support': 72661.0}, 'weighted avg': {'precision': 0.7197891743216054, 'recall': 0.5955189166127633, 'f1-score': 0.5631998873774842, 'support': 72661.0}}
+```
+
+#### Class Distribution (Original)
+
+Class distribution in train dataset:
+Label 0: 75270 samples
+Label 1: 95398 samples
+Label 2: 91232 samples
+Label 3: 10740 samples
+Label 4: 14910 samples
+Label 5: 1368 samples
+
+#### Class Distribution (After Augmentation)
+
+Class distribution in train dataset after augmentation:
+Label 0: 75270 samples
+Label 1: 95398 samples
+Label 2: 91232 samples
+Label 3: 53700 samples
+Label 4: 74550 samples
+Label 5: 6840 samples
